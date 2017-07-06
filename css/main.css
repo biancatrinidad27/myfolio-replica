@@ -1,0 +1,343 @@
+* {
+  margin-top: 0px;
+}
+
+/*header*/
+
+header {
+  background-color: #02908B;
+  height: 60px;
+  margin: 0px;
+  position: fixed;
+  width: 100%;
+}
+
+/*logo*/
+.logo {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 30px;
+
+}
+
+.logo span {
+  color: white;
+}
+
+.logo h1 {
+  color: #CFC91D;
+  font-family: arial;
+  font-size: 28px;
+  margin-left: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  display: inline;
+}
+
+/*nav links*/
+
+.nav {
+  display: inline-block;
+  float: right;
+  margin-top: 17px;
+}
+
+.nav ul{
+  list-style: none;
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 0px;
+}
+
+.nav li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  font-size: 15px;
+  display: inline-block;
+}
+
+
+/*content*/
+
+.content {
+  text-align: center;
+  color: white;
+  height: 800px;
+  margin-top: 0px;
+  padding-top: 250px;
+  background-image: url("http://codifyacademy.com/week2/intermediate/img/headerbg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content h2  {
+  font-size: 35px;
+}
+
+.content h1 {
+  font-size: 75px;
+  letter-spacing: 20px;
+}
+
+.content p {
+  font-size: 17px;
+}
+
+.content img {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.know-more {
+  width: 170px;
+  height: 40px;
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  padding-top: 10px;
+  margin: 20px auto;
+  font-size: 10px;
+}
+
+/*about me*/
+
+.about-me {
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+.about-me h1 {
+  font-size: 40px;
+  color: #02908B;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.about-me .text {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-size: 17px;
+  color: gray;
+  line-height: 50px;
+}
+
+.about-me span {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/*columns*/
+
+.container {
+  margin-bottom: 30px;
+}
+
+.col-md-3 img {
+  width: 15%;
+  height: 15%;
+}
+
+.col-md-3 {
+  border-right: solid;
+  border-color: gray;
+  color: gray;
+}
+
+.laptop {
+  border: none;
+}
+
+.col-md-3 p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.col-md-3 h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*services*/
+
+.services {
+  background-image: url("http://codifyacademy.com/week2/intermediate/img/service.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+}
+
+.services-box {
+  height: 650px;
+  width: 50%;
+  text-align: left;
+  padding-left: 100px;
+}
+
+.services-box h1 span {
+  font-size: 50px;
+}
+
+.services-box h3 {
+  font-size: 20px;
+  line-height: 50px;
+  padding-top: 30px;
+  font-weight: lighter;
+}
+
+
+/*4 boxes */
+
+/*1st Row*/
+.boxes {
+  margin-top: 30px;
+  padding-right: 150px;
+}
+
+.col-sm-3 {
+  line-height: 10px;
+}
+
+.col-sm-3 img {
+  width: 10%;
+  height: 10%;
+  padding: 0px;
+}
+
+.col-sm-3 p {
+  font-size: 12px;
+  font-weight: bold;
+  color: gray;
+  line-height: 15px;
+
+}
+
+.col-sm-3 h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: gray;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+/*2nd Row*/
+.boxes2 {
+  margin-top: 30px;
+  padding-right: 150px;
+}
+
+.col-sm-3 {
+  line-height: 10px;
+}
+
+.col-sm-3 img {
+  width: 10%;
+  height: 10%;
+  padding: 0px;
+}
+
+.col-sm-3 p {
+  font-size: 12px;
+  font-weight: bold;
+  color: gray;
+  line-height: 15px;
+
+}
+
+.col-sm-3 h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: gray;
+  padding: 0px;
+  margin: 0px;
+}
+
+.clock img{
+  width: 20%;
+  height: 20%;
+}
+
+.chart img {
+  width: 16%;
+  height: 16%;
+}
+
+/*contact me*/
+
+.contact-me {
+  height: 270px;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+.contact-me h1 {
+  font-size: 40px;
+  color: #02908B;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.contact-me .text {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-size: 17px;
+  color: gray;
+  line-height: 50px;
+}
+
+/*forms*/
+
+form {
+  height: 600px;
+  background-color: black;
+}
+
+label {
+  color: gray;
+  font-size: 17px;
+  font-family: arial;
+  padding-top: 50px;
+}
+
+input {
+  background-color: black;
+  border: none;
+  border-bottom: solid 1px;
+  border-color: gray;
+  width: 800px;
+  text-align: center;
+  height: 30px;
+  font-size: 25px;
+}
+
+button {
+  height: 40px;
+  width: 130px;
+  background-color: yellow;
+  color: black;
+  border: none;
+  font-weight: bold;
+}
+
+/*footer*/
+
+footer {
+  height: 50px;
+  background-color: black;
+  color: gray;
+
+}
